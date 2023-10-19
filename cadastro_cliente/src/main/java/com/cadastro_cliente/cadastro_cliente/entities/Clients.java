@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table (name ="TBL_CLIENTE")
+@Table (name ="CLIENTE")
 public class Clients implements Serializable{
     
     @Id

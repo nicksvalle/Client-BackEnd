@@ -26,7 +26,7 @@ import com.cadastro_cliente.cadastro_cliente.services.ClientsService;
 
 @RestController
 @RequestMapping("clientes")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class ClientsController {
     
     @Autowired

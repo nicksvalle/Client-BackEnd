@@ -17,6 +17,7 @@ public class ClientsMapper {
         clients.setEmpresa(request.empresa());
         clients.setContato(request.contato());
         clients.setEmail(request.email());
+        clients.setEscopo(request.escopo());
         clients.setNacionalidade(request.nacionalidade());
         clients.setTelefone(request.telefone());
         return clients;
@@ -28,6 +29,7 @@ public class ClientsMapper {
                                   clients.getEmpresa(),
                                   clients.getContato(),
                                   clients.getEmail(),
+                                  clients.getEscopo(),
                                   clients.getNacionalidade(),
                                   clients.getTelefone());
     }

@@ -18,6 +18,9 @@ public record ClientRequest(
     @NotBlank(message = "Nacionalidade não pode ser em branco")
     String nacionalidade,
 
+    @NotBlank(message = "Escopo não pode ser em branco")
+    String escopo,
+
     @NotBlank(message = "Telefone não pode ser em branco")
     String telefone
 ) {

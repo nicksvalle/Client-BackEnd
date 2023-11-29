@@ -30,6 +30,9 @@ public class Clients implements Serializable{
     @Column(length = 1024, nullable = false, name = "cliente_email")
     private String email;
 
+    @Column(length = 1024, nullable = false, name = "cliente_escopo")
+    private String escopo;
+
     @Column(length = 1024, nullable = false, name = "cliente_nacionalidade")
     private String nacionalidade;
 
@@ -38,6 +41,14 @@ public class Clients implements Serializable{
 
     public Long getId() {
         return id;
+    }
+
+    public String getEscopo() {
+        return escopo;
+    }
+
+    public void setEscopo(String escopo) {
+        this.escopo = escopo;
     }
 
     public void setId(Long id) {

@@ -6,6 +6,7 @@ public record ClientResponse(
     String empresa,
     String contato,
     String email,
+    String escopo,
     String nacionalidade,
     String telefone
 ) {
